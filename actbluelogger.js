@@ -36,7 +36,7 @@ function main() {
         "\nActBlue Contributions Logger\n\nExpress time and time intervals as 24 Hour - Hour:Minute:Second\n"
     ));
     console.log(colors.cyan(
-        "The following parameters are optional:\n   - start (default = immediate)\n   - logfile (defaultub. = log.csv)\n"
+        "The following parameters are optional:\n   - start (default = immediate)\n   - logfile (default = log.csv)\n"
     ));
     
     prompt.get(schema, function (err, result) {
