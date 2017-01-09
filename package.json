@@ -1,0 +1,13 @@
+{
+  "name": "actblue-logger",
+  "version": "0.0.1",
+  "main":"actbluelogger.js",
+  "author":"Jay Randez <jayrandez@gmail.com>",
+  "description": "Accesses ActBlue API to log fundraiser progress over time.",
+  "dependencies": {
+    "xml2js": "latest",
+    "dateformat": "latest",
+    "prompt": "latest"
+  },
+  "license": "MIT"
+}
